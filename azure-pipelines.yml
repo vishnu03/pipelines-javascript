@@ -28,5 +28,5 @@ steps:
   inputs:
     SonarQube: 'SonarService'
     scannerMode: 'MSBuild'
-    projectKey: '627dbe3f5fb2c7661575beb0d7d3d08a4cbb52ca'
+    projectKey: '3d8515973ea3d922b4a4d0be3866a1a4ca7cd764'
     projectName: 'pipelines-javascript'
