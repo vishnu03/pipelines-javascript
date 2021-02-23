@@ -26,6 +26,6 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
 - task: SonarQubePrepare@4
   inputs:
-    SonarQube: 'SonarService'
-    projectKey: 'd5b83df309f7866f14f30e5e07598d1154ae6e06'
+    SonarQube: 'Sonarqube'
+    projectKey: '4fb1c74bd1190f2e95100b15bb857bba65bf3625'
     projectName: 'pipelines-javascript'
