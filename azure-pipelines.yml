@@ -25,7 +25,7 @@ steps:
     scannerMode: 'CLI'
     configMode: 'manual'
     cliProjectKey: '1400ca9acc3edd2bb3054cb1c34268e82ec6924d'
-    cliSources: '.'
+    cliSources: 'C:\Users\VishnuPra (F3107DF5)\Downloads\NodeProject\pipelines-javascript-master'
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
