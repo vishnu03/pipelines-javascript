@@ -24,9 +24,3 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
-- task: SonarQubePrepare@4
-  inputs:
-    SonarQube: 'SonarService'
-    projectKey: '$(Build.DefinitionName)'
-    projectName: '$(Build.DefinitionName)'
-    projectVersion: '$(Build.BuildID)'
