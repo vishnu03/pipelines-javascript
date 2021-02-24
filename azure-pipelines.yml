@@ -14,7 +14,11 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
-
+- task: SonarQubePrepare@4
+  inputs:
+    SonarQube: 'SonarService'
+    scannerMode: 'MSBuild'
+    projectKey: '1400ca9acc3edd2bb3054cb1c34268e82ec6924d'
 - script: |
     npm install
     npm run build
